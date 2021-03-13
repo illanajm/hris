@@ -1,0 +1,13 @@
+{
+    "name": "References",
+    "alias": "references",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\References\\Providers\\ReferencesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
