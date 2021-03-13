@@ -10,14 +10,12 @@
         "dashboard"
     ],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Tuan Duong",
-            "email": "bacduong@gmail.com",
-            "homepage": "https://laravue.dev",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Tuan Duong",
+        "email": "bacduong@gmail.com",
+        "homepage": "https://laravue.dev",
+        "role": "Developer"
+    }],
     "require": {
         "php": "^7.2.5",
         "fideloper/proxy": "^4.2",
@@ -47,7 +45,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Modules\\": "Modules/"
         },
         "classmap": [
             "database/seeds",
